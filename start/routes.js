@@ -14,6 +14,10 @@ class RouteConfig {
             res.json({ message: "hello" });
             next();
         });
+        this._instance.get('/cunt', (req, res, next) => {
+            res.json({ message: "you cunt!" });
+            next();
+        });
     }
 }
 exports.RouteConfig = RouteConfig;

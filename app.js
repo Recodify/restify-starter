@@ -8,7 +8,8 @@ const logger = new loggerFactory_1.LoggerFactory().create();
 const baseRoutes = routes_1.RouteConfig.instance();
 const server = restify.createServer({
     name: "test api",
-    version: "0.0.1"
+    version: "0.0.1",
+    ignoreTrailingSlash: true,
 });
 const router = new restify_router_1.Router();
 router.add("/api", baseRoutes);
