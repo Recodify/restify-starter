@@ -1,0 +1,3 @@
+{"name":"hello","hostname":"ubuntu-test","pid":3975,"level":30,"msg":"Listen on port:http://[::]:8080","time":"2018-10-26T18:50:49.639Z","v":0}
+{"name":"hello","hostname":"ubuntu-test","pid":4303,"level":30,"msg":"Listen on port:http://[::]:8080","time":"2018-10-26T18:53:11.181Z","v":0}
+{"name":"hello","hostname":"ubuntu-test","pid":4408,"level":30,"msg":"Listen on port:http://[::]:8080","time":"2018-10-26T18:58:14.515Z","v":0}
