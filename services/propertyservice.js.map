@@ -1,0 +1,1 @@
+{"version":3,"file":"propertyservice.js","sourceRoot":"","sources":["propertyservice.ts"],"names":[],"mappings":";;;;;;;;AAAA,yCAAqC;AACrC,iDAA8C;AAG9C,IAAa,eAAe,GAA5B,MAAa,eAAe;IAEjB,MAAM;QACT,OAAO,CAAC,IAAI,mBAAQ,CAAC,YAAY,CAAC,EAAE,IAAI,mBAAQ,CAAC,YAAY,CAAC,EAAE,IAAI,mBAAQ,CAAC,mBAAmB,CAAC,CAAC,CAAC;IACvG,CAAC;CAEJ,CAAA;AANY,eAAe;IAD3B,sBAAU,EAAE;GACA,eAAe,CAM3B;AANY,0CAAe"}

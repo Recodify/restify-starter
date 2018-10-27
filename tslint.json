@@ -12,13 +12,14 @@
         "semicolon": true,
         "typedef-whitespace": true,
         "eofline": false,
-        "member-access": false,
+        "member-access": true,
         "space-before-function-paren": false,
         "no-console": false,
         "object-literal-sort-keys": false,
         "no-floating-promises": true,
         "comment-format": false,
-        "no-namespace": false
+        "no-namespace": false,
+        "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"],
     },
     "rulesDirectory": []
 }
