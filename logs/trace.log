@@ -3,6 +3,3 @@
 {"name":"hello","hostname":"ubuntu-test","pid":3642,"level":30,"msg":"Listen on port:http://[::]:8080","time":"2018-10-27T18:39:35.348Z","v":0}
 {"name":"hello","hostname":"ubuntu-test","pid":3750,"level":30,"msg":"Listen on port:http://[::]:8080","time":"2018-10-27T18:41:18.229Z","v":0}
 {"name":"hello","hostname":"ubuntu-test","pid":3838,"level":30,"msg":"Listen on port:http://[::]:8080","time":"2018-10-27T18:42:14.400Z","v":0}
-{"name":"hello","hostname":"ubuntu-test","pid":4154,"level":30,"msg":"Listen on port:http://[::]:8080","time":"2018-10-27T19:00:30.896Z","v":0}
-{"name":"hello","hostname":"ubuntu-test","pid":4213,"level":30,"msg":"Listen on port:http://[::]:8080","time":"2018-10-27T19:01:33.846Z","v":0}
-{"name":"hello","hostname":"ubuntu-test","pid":4528,"level":30,"msg":"Listen on port:http://[::]:8080","time":"2018-10-27T19:19:02.068Z","v":0}

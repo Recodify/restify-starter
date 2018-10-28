@@ -7,16 +7,11 @@
     "@types/bunyan": "^1.8.5",
     "@types/es6-promise": "^3.3.0",
     "@types/restify": "^7.2.5",
-    "@types/swagger-restify-mw": "^0.7.7",
     "bunyan": "^1.8.12",
     "inversify": "^5.0.1",
     "reflect-metadata": "^0.1.12",
     "restify": "^7.2.1",
-    "restify-router": "^0.5.1",
-    "swagger": "^0.7.5",
-    "swagger-restify": "^1.0.1",
-    "swagger-restify-mw": "^0.7.0",
-    "swagger-ui": "^3.19.4"
+    "restify-router": "^0.5.1"
   },
   "devDependencies": {
     "tslint": "^5.11.0",
