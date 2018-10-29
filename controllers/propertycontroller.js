@@ -16,18 +16,27 @@ const inversify_1 = require("inversify");
 require("reflect-metadata");
 const propertyservice_1 = require("../services/propertyservice");
 const types_1 = require("../start/types");
+const tsoa_1 = require("tsoa");
 let PropertyController = class PropertyController {
     constructor(propertyService) {
         this._propertyService = propertyService;
     }
-    index(request, response, next) {
+    getAll(request, response, next) {
         const properties = new propertyservice_1.PropertyService().getAll();
         response.json(properties);
         next();
+        return properties;
     }
 };
+__decorate([
+    tsoa_1.Get(),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object, Object, Function]),
+    __metadata("design:returntype", Array)
+], PropertyController.prototype, "getAll", null);
 PropertyController = __decorate([
     inversify_1.injectable(),
+    tsoa_1.Route('Properties'),
     __param(0, inversify_1.inject(types_1.TYPES.PropertyService)),
     __metadata("design:paramtypes", [propertyservice_1.PropertyService])
 ], PropertyController);

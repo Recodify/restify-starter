@@ -3,8 +3,11 @@ import { injectable, inject } from "inversify";
 import "reflect-metadata";
 import {PropertyService} from '../services/propertyservice';
 import { TYPES } from "../start/types";
+import {Get, Post, Route, Body, Query, Header, Path, SuccessResponse, Controller } from 'tsoa';
+import { Property } from "../models/property";
 
 @injectable()
+@Route('Properties')
 export class PropertyController {
 
     private readonly _propertyService : PropertyService;
@@ -12,9 +15,11 @@ export class PropertyController {
             this._propertyService = propertyService;
     }
 
-    public index(request : Request, response: Response, next: Next) : void {
+    @Get()
+    public getAll(request : Request, response: Response, next: Next) : Property[] {
         const properties = new PropertyService().getAll();
         response.json(properties);
         next();
+        return properties;
     }
 }

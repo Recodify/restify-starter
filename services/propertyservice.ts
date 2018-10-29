@@ -1,5 +1,5 @@
 import {injectable} from "inversify";
-import { Property } from "../Models/property";
+import { Property } from "../models/property";
 
 @injectable()
 export class PropertyService implements IPropertyService {

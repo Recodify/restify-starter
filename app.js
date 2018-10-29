@@ -2,9 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const restify = require("restify");
 const restify_router_1 = require("restify-router");
-const loggerFactory_1 = require("./util/loggerFactory");
 const routes_1 = require("./start/routes");
-const logger = new loggerFactory_1.LoggerFactory().create();
 const baseRoutes = routes_1.RouteConfig.instance();
 const server = restify.createServer({
     name: "test api",
@@ -15,6 +13,6 @@ const router = new restify_router_1.Router();
 router.add("/api", baseRoutes);
 router.applyRoutes(server);
 server.listen(8080, () => {
-    logger.info(`Listen on port:${server.url}`);
+    console.log("Listening on 8080");
 });
 //# sourceMappingURL=app.js.map

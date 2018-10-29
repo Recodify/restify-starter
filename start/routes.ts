@@ -19,7 +19,7 @@ export class RouteConfig {
         this._instance = new Router();
         this._instance.get('/', (req : Request, res : Response, next : Next) => {
             const propertyController = container.resolve(PropertyController);
-            propertyController.index(req, res, next);
+            propertyController.getAll(req, res, next);
         });
 
         this._instance.get('/cunt', (req : Request, res : Response, next : Next) => {

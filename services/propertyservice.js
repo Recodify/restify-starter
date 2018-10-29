@@ -7,7 +7,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const inversify_1 = require("inversify");
-const property_1 = require("../Models/property");
+const property_1 = require("../models/property");
 let PropertyService = class PropertyService {
     getAll() {
         return [new property_1.Property("Hill House"), new property_1.Property("Duck Place"), new property_1.Property("1 timothys corner")];

@@ -14,7 +14,7 @@ class RouteConfig {
         this._instance = new restify_router_1.Router();
         this._instance.get('/', (req, res, next) => {
             const propertyController = bootstrap_1.container.resolve(propertycontroller_1.PropertyController);
-            propertyController.index(req, res, next);
+            propertyController.getAll(req, res, next);
         });
         this._instance.get('/cunt', (req, res, next) => {
             res.json({ message: "you cunt!" });

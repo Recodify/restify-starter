@@ -1,7 +1,0 @@
-{"name":"hello","hostname":"ubuntu-test","pid":3975,"level":30,"msg":"Listen on port:http://[::]:8080","time":"2018-10-26T18:50:49.639Z","v":0}
-{"name":"hello","hostname":"ubuntu-test","pid":4303,"level":30,"msg":"Listen on port:http://[::]:8080","time":"2018-10-26T18:53:11.181Z","v":0}
-{"name":"hello","hostname":"ubuntu-test","pid":4408,"level":30,"msg":"Listen on port:http://[::]:8080","time":"2018-10-26T18:58:14.515Z","v":0}
-{"name":"hello","hostname":"ubuntu-test","pid":7247,"level":30,"msg":"Listen on port:http://[::]:8080","time":"2018-10-26T19:45:37.043Z","v":0}
-{"name":"hello","hostname":"ubuntu-test","pid":2705,"level":30,"msg":"Listen on port:http://[::]:8080","time":"2018-10-26T19:53:20.064Z","v":0}
-{"name":"hello","hostname":"ubuntu-test","pid":3056,"level":30,"msg":"Listen on port:http://[::]:8080","time":"2018-10-26T19:54:34.808Z","v":0}
-{"name":"hello","hostname":"ubuntu-test","pid":3181,"level":30,"msg":"Listen on port:http://[::]:8080","time":"2018-10-26T19:56:57.117Z","v":0}
